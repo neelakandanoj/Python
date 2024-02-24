@@ -1,4 +1,4 @@
 # **Python**
 
 Day1--introduction to python
-Day2--
+Day2--Datatypes, LinearRegression
