@@ -19,5 +19,6 @@ Prerequsites:
 6.git commit -m "Message"
 
 7.config which repo need to push in Github
+    git Remote add origin <<repo name>>
 
 8.git push origin main
