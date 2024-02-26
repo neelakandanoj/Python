@@ -20,5 +20,18 @@ Prerequsites:
 
 7.config which repo need to push in Github
     git Remote add origin <<repo name>>
-
+    
 8.git push origin main
+
+9.First time 
+    git push -u origin master {username & password}  or 
+    git push origin main
+
+10.git pull
+
+11. creating the work branch
+    git checkout -b <<'branch name'>>
+    git checkout <<'branch name'>>
+
+11. merging two branch
+    git merge <<'second branch'>>
