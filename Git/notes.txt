@@ -1,0 +1,23 @@
+Git & Github
+  -version control system
+
+Prerequsites:
+1.Download git
+    version check: git --version
+
+2.Git Account create
+
+3.Github---ProjectLink---Folder---Remote repository
+
+4.Go the Folder used as project repo and run
+    git init
+
+5. git add .. 
+    or 
+    specific file [git add sample.py]
+
+6.git commit -m "Message"
+
+7.config which repo need to push in Github
+
+8.git push origin main
