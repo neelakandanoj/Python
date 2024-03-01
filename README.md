@@ -6,3 +6,4 @@
 ## "Day4"--Typcasting,Operators[Relational,Equality,Logical],Linearregression(petrol dataset),Django
 ## "Day5"--Git[Version Control System]
 ## "Day6"--Loops
+## "Day7"--Loops,Django
