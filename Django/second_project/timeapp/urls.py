@@ -16,9 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.conf.urls import include
+from demoapp import views
+from timeapp import views as v1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('testapp/',include('timeapp.urls')),
+    path('gm/',views.gm_view),
+    path('ge/',views.ge_view),
+    path('ga/',views.ga_view),
+    path('time/',v1.cu_time)
 ]
