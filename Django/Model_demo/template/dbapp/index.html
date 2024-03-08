@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB Learning</title>
+</head>
+<body>
+    {% if emp_list %}
+    <table>
+    {% for employee in emp_list %}
+        <tr>
+    <td>{{employee.empno}}</td>
+    <td>{{employee.empname}}</td>
+    <td>{{employee.empsalary}}</td>
+    <td>{{employee.address}}</td>
+</tr>
+
+    {% endfor%}
+    {% endif %}
+</table>
+</body>
+</html>
